@@ -1,4 +1,6 @@
-function primeNumbers(array){
+
+var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]; // sample input
+const primeNumbers = (function(array){
     let primes =[];
 for(let i of array ){
     if(primeCheck(i)){
@@ -6,7 +8,7 @@ for(let i of array ){
         }   
     }
  return primes;
-}
+})(array);// IIFE implemented here
 
 function primeCheck(i){
     if(i<=1) return false;
@@ -17,4 +19,4 @@ function primeCheck(i){
     return true;
 }
 
-console.log(primeNumbers(array));
+console.log(primeNumbers);// output:[ 2, 3, 5, 7, 11, 13 ]

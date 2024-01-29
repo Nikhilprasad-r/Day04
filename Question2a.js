@@ -1,3 +1,7 @@
+
+var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]; // sample input
+
+
 const oddFinder = (array)=>{
     let oddArray = [];
     for(let i=0;i<array.length;i++){
@@ -5,7 +9,7 @@ const oddFinder = (array)=>{
         oddArray.push(array[i]);
 
     }
-    console.log(...oddArray);
+    return oddArray;
 };
 
-oddFinder(inpu);
+console.log(oddFinder(array));// [1, 3, 5, 7, 9, 11, 13]

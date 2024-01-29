@@ -1,4 +1,6 @@
-function PalindromeS(array){
+var array = ["nitin","nikhil","rotator","radar","border"];  //sample input
+
+const PalindromeS = (function(array){
     let PalindromArray=[];
     for(let i of array){
         if(palindromeCheck(i))
@@ -7,7 +9,7 @@ function PalindromeS(array){
         }
     }
     return PalindromArray;
-}
+})(array);// IIFE implemented here
 
 function palindromeCheck(string){
     let reverseString = string.split("");
@@ -21,4 +23,4 @@ function palindromeCheck(string){
         return false;
     }
 }
-console.log(PalindromeS(array));
+console.log(PalindromeS);// output:[ 'nitin', 'rotator', 'radar' ]

@@ -1,3 +1,5 @@
+var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]; // sample input
+
 const primeNumbers = (array) =>{
     let primes =[];
 for(let i of array ){
@@ -17,4 +19,4 @@ const primeCheck = (i) => {
     return true;
 };
 
-console.log(primeNumbers(array));
+console.log(primeNumbers(array));// output:[ 2, 3, 5, 7, 11, 13 ]

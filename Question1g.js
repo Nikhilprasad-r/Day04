@@ -1,4 +1,6 @@
-function duplicateRemover(array){
+
+var array = ["nikhil","is","learning","full","stack","nikhil","is","student","of","Guvi"]; // sample input
+const duplicateRemover = (function (array){
     return [...new Set(array)];
-}
-console.log(duplicateRemover(array));
+})(array);// IIFE implemented here
+console.log(duplicateRemover);//output:['nikhil','is','learning', 'full','stack','student','of','Guvi']

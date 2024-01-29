@@ -1,3 +1,6 @@
+var array = ["nitin","nikhil","rotator","radar","border"];  //sample input
+
+
 const PalindromeS = (array) =>{
     let PalindromArray=[];
     for(let i of array){
@@ -21,4 +24,5 @@ const palindromeCheck = (string)=>{
         return false;
     }
 };
-console.log(PalindromeS(array));
+console.log(PalindromeS(array));// output:[ 'nitin', 'rotator', 'radar' ]
+
