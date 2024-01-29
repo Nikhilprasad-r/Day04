@@ -1,3 +1,5 @@
+// Convert all the strings to title caps in a string array using arrow function
+
 var array =["nikhil","is","learning","full","stack"]; //input
 const capitalizing = (array) => {
     let op=[];

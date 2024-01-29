@@ -1,4 +1,6 @@
-
+/* 
+Return all the prime numbers in an array using anonymous function & IIFE
+*/
 var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]; // sample input
 const primeNumbers = (function(array){
     let primes =[];

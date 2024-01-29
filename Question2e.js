@@ -1,3 +1,4 @@
+//Return all the palindromes in an array using arrow function
 var array = ["nitin","nikhil","rotator","radar","border"];  //sample input
 
 

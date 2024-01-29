@@ -1,4 +1,6 @@
-
+/* 
+Return median of two sorted arrays of the same size using anonymous function & IIFE
+*/
 var array1 = [1,2,4,6,7,9];      
 var array2 = [11,14,15,16,17,19];  // sample input
 

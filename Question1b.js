@@ -1,4 +1,7 @@
-
+/* 
+Convert all the strings to title caps in a string array
+ using anonymous function & IIFE
+*/
 var array =["nikhil","is","learning","full","stack"]; //input
 
 const capitalizing = (function(array){

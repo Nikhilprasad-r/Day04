@@ -1,3 +1,8 @@
+/* 
+Return all the palindromes in an array using anonymous function & IIFE
+*/
+
+
 var array = ["nitin","nikhil","rotator","radar","border"];  //sample input
 
 const PalindromeS = (function(array){
