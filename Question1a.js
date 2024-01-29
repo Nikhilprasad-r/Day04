@@ -1,11 +1,14 @@
-function oddFinder(array){
+var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]; // sample input
+
+
+const oddNumbers = (function (array){  // anonymous function is stored in a variable
     let oddArray =[];
     for(let i=0;i<array.length;i++){
         if(array[i]%2!=0)
         oddArray.push(array[i]);
 
     }
-    console.log(...oddArray);
-}
+    return oddArray;
+})(array); // IIFE implemented here
 
-oddFinder(inpu);
+console.log(oddNumbers); // [1, 3, 5, 7, 9, 11, 13]
